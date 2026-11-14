@@ -1,0 +1,3 @@
+Um eine komplette Anleitung zum Befehl bekommen
+Get-Help ...
+For example 
