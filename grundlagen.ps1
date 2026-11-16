@@ -1,9 +1,9 @@
-Um eine komplette Anleitung zum Befehl bekommen
+# Um eine komplette Anleitung zum Befehl bekommen
 Get-Help ...
 
-Beispiel:
+# Beispiel:
 Get-Help Get-Date
-Man bekommt eine offiziele Beschreibung von diesem Befehl
+# Man bekommt eine offiziele Beschreibung von diesem Befehl
 #########################
-Sodass alle Alias angezeigt werden, hat man den Befehl:
+# Sodass alle Alias angezeigt werden, hat man den Befehl:
 Get-Alias
