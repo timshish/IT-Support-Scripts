@@ -11,3 +11,13 @@ Stop-Process -Name $Prozess-Name
 # Als Beispiel ein Script, sodass ein Konto von den Mitarbeiter in AD entsperrt wird:
 $BenutzerKuerzel = Read-Host -Promt "Welches Konto soll entsperrt werden?"
 Unlock-ADAccount -Identity $BenutzerKuerzel
+
+# Im Vergleich mit Read-Host, der startet und wartet auf Benutzereingabe, gibt es noch ein Script:
+Param()
+# Es hat schon alle Benutzerdaten und wird automatisch und schnell fertig.
+
+# Beispiel: Wie es im Beispiel mit Read-Host war, kann auch mit Parameter gemacht werden:
+Param(
+$BenutzerKuerzel
+)
+Unlock-ADAccount -Identity $Benutzerkuerzel 
