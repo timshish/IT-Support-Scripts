@@ -12,8 +12,9 @@ Write-Host "Fehler: Konto konnte nicht gefunden oder entsperrt werden."
 }
 #Wenn Login richtig ist, wird das Konto entsperrt, aber wenn ein Fehler passiert, wird Befehl gestoppt und ein Text mit dem Fehler erscheinen.
 
-Get-Date - Datum
+Get-Date - Datum.
 Add-Content - man hängt eine Textzeile an log-Datei an.
+-ForegroundColor - ändert die Farbe vom "Write-Host" Befehl.
 
 # Zusätzliches Beispiel:
 $Zeit = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
